@@ -8,3 +8,5 @@ elif score>=60:
 elif score<60:
           print("D")
 print("程序运行结束,请重启")
+
+
