@@ -8,11 +8,11 @@ if choice =="1":
     score=int(input("请输入成绩"))
 
 if choice =="2":
-     print('1.0')
+     print('1.1')
      print("程序运行结束，请重启")
 
 elif  choice =="3":
-    print('（目前正在搜集各市等级计算方法）')
+    print('（截止到目前正在搜集各市等级计算方法）')
 
 elif  choice =="4":
  print("本软件是用来计算各地中考等级学科等级，有一部份地区中考采用的是主科和体育算入总分，副科算等级")
