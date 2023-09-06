@@ -15,7 +15,7 @@ elif  choice =="3":
     import time
     localtime = time.asctime(time.localtime(time.time()))
     print("截止到本地时间为 :", localtime)
-    print('目前正在搜集各市等级计算方法')
+    print('正在搜集中')
 
 elif  choice =="4":
  print("本软件是用来计算各地中考等级学科等级，有一部份地区中考采用的是主科和体育算入总分，副科算等级")
