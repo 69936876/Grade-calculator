@@ -14,6 +14,11 @@ if choice =="2":
 elif  choice =="3":
     import time
     localtime = time.asctime(time.localtime(time.time()))
+    import socket
+    hostname = socket.gethostname()
+    ip_address = socket.gethostbyname(hostname)
+    print(f"Hostname: {hostname}")
+    print(f"IP_Address: {ip_address}")
     print("截止到本地时间为 :", localtime)
     print('目前正在搜集各市等级计算方法')
 
@@ -30,3 +35,6 @@ elif score >= 60:
 elif score < 60:
     print("D")
 print("程序运行结束,请重启")
+
+
+
