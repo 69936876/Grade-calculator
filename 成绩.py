@@ -10,7 +10,7 @@ if choice =="2":
      print('2.0')
      print("程序运行结束，请重启")
 
-elif  choice =="维护":
+elif  choice =="即将结束维护":
     import time
     localtime = time.asctime(time.localtime(time.time()))
     import socket
