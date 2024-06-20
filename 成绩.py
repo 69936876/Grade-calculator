@@ -10,7 +10,7 @@ if choice =="2":
      print('2.0')
      print("程序运行结束，请重启")
 
-elif  choice =="中考正在进行，正在统计":
+elif  choice =="3":
     import time
     localtime = time.asctime(time.localtime(time.time()))
     import socket
@@ -19,7 +19,7 @@ elif  choice =="中考正在进行，正在统计":
     print(f"Hostname: {hostname}")
     print(f"IP_Address: {ip_address}")
     print("截止到本地时间为 :", localtime)
-    print('正在搜集')
+    print('中考正在进行中，正在统计')
 
 
 elif score >= 90:
