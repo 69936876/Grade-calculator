@@ -10,7 +10,7 @@ if choice =="2":
      print('2.0')
      print("程序运行结束，请重启")
 
-elif  choice =="即将结束维护":
+elif  choice =="中考正在进行，正在统计":
     import time
     localtime = time.asctime(time.localtime(time.time()))
     import socket
