@@ -7,7 +7,7 @@ if choice =="1":
     score=int(input("请输入成绩"))
 
 if choice =="2":
-     print('2.0')
+     print('2.1')
      print("程序运行结束，请重启")
 
 elif  choice =="3":
