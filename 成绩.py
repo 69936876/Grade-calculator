@@ -22,9 +22,9 @@ elif  choice =="3":
     print('中考正在进行中，正在统计')
 
 
-elif score >= 90:
+elif score >= 130:
     print("A")
-elif score >= 80:
+elif score >= 90:
     print("B")
 elif score >= 60:
     print("C")
