@@ -19,7 +19,7 @@ elif  choice =="3":
     print(f"Hostname: {hostname}")
     print(f"IP_Address: {ip_address}")
     print("截止到本地时间为 :", localtime)
-    print('中考正在进行中，正在统计')
+    print('中考结束')
 
 
 elif score >= 130:
